@@ -321,7 +321,7 @@ export default function Dashboard() {
                           : '0 8px 32px rgba(0, 0, 0, 0.1)',
                         border: darkMode ? '1px solid rgba(255, 255, 255, 0.1)' : '1px solid rgba(229, 231, 235, 1)',
                         backdropFilter: 'blur(10px)',
-                        borderRadius: 3,
+                        borderRadius: 2,
                         '&::before': {
                           content: '""',
                           position: 'absolute',
@@ -417,7 +417,7 @@ export default function Dashboard() {
                           : '0 8px 32px rgba(0, 0, 0, 0.1)',
                         border: '1px solid rgba(255, 255, 255, 0.1)',
                         backdropFilter: 'blur(10px)',
-                        borderRadius: 3,
+                        borderRadius: 2,
                         '&::before': {
                           content: '""',
                           position: 'absolute',
@@ -493,7 +493,7 @@ export default function Dashboard() {
             <Paper
               sx={{
                 p: 3,
-                borderRadius: 3,
+                borderRadius: 2,
                 height: 280,
                 background: darkMode
                   ? 'rgba(30, 41, 59, 0.9)'
@@ -507,7 +507,7 @@ export default function Dashboard() {
                   : '0 8px 32px rgba(0, 0, 0, 0.1)',
                 position: 'relative',
                 overflow: 'hidden',
-                borderRadius: 3,
+                borderRadius: 2,
                 '&::before': {
                   content: '""',
                   position: 'absolute',
@@ -599,7 +599,7 @@ export default function Dashboard() {
             <Paper
               sx={{
                 p: 3,
-                borderRadius: 3,
+                borderRadius: 2,
                 height: 340,
                 background: darkMode
                   ? 'rgba(30, 41, 59, 0.9)'
@@ -710,7 +710,7 @@ export default function Dashboard() {
             <Paper
               sx={{
                 p: 3,
-                borderRadius: 3,
+                borderRadius: 2,
                 position: 'relative',
                 overflow: 'hidden',
                 height: 340,
